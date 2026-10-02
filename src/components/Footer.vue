@@ -3,6 +3,7 @@
         <p>&copy;2023 Sibabalwe Mafestire</p>
 
         <div class="foot">
+            
 <!--             <div class="quick">
                 <h5>Quick links</h5>
                 <ul class="links">

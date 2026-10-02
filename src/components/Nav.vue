@@ -54,6 +54,11 @@
                 <router-link to="/contacts">Contacts</router-link>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <router-link to="/newhome">New Home</router-link>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -78,11 +83,12 @@ export default {
   display: flex;
   justify-content: space-around ;
   width: 100%;
-  height: 5rem;
+  /*height: 5rem;*/
   /* top: 1rem; */
   z-index: 10;
   padding: 1rem 3rem;
   font-family: "Nunito Sans", sans-serif;
+  background-color: #111827;
   /* text-align: end; */
 }
 
@@ -175,7 +181,7 @@ i {
   }
 
   .collapse {
-    background-color: #171717;
+    background-color: #111827;
     width: 100%;
     border: 1px solid #ffff;
     text-align: start;

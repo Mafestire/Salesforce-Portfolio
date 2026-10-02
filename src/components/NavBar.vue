@@ -32,10 +32,11 @@
                             <a class="nav-link "> <router-link to="/projects">Projects</router-link>
                             </a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link "> <router-link to="/projects#Testimonials">Testimonials</router-link>
-                            </a>
-                        </li> -->
+                        <li class="nav-item">
+              <a class="nav-link">
+                <router-link to="/newhome">New Home</router-link>
+              </a>
+            </li>
                         <li class="nav-item">
                             <a class="nav-link "> <router-link to="/contacts">Contacts</router-link>
                             </a>

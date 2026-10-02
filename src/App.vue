@@ -13,11 +13,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 #app{
-  background-color: burlywood;
-  border: 2px solid red;
-  font-family: 'Lobster Two', cursive;
+  background-color: #0A1128;
+  font-family: 'Playfair Display', serif;
 }
 
 

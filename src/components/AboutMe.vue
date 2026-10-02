@@ -1,10 +1,9 @@
 <template>
-  <Nav />
-
-  <div class="abt">
+    <div>
+<div class="abt">
     <div class="about">
       <img src="https://i.postimg.cc/BQDYRcGf/C11-Sibabalwe-Mafestire-3-removebg-preview-1.png
-" alt="">
+        " alt="">
       <div class="details">
         <h2>Hellozz, I am <span style="color: aqua;">Sibabalwe Mafestire</span></h2>
         <h2 style="font-weight: 600;">Web Developer & Certified Salesforce Professional</h2>
@@ -22,7 +21,9 @@
           Salesforce solutions that drive business efficiency. Every line of code I write and every solution I build is
           fueled by my belief in lifelong learning, impact, and excellence.</p>
 
-        <div class="two">
+          <button class="aboutButton">Read More</button>
+
+       <!-- <div class="two">
           <div>
             <div class="info1">
               <ul class="list-group list-group-vertical ">
@@ -49,7 +50,7 @@
             </div>
 
             <div>
- <div class="info3">
+            <div class="info3">
               <ul class="list-group sec list-group-vertical-sm">
                 <l class="list-group-item">Cape Town</l>
                 <l class="list-group-item num call"><a class="L" href="tel:+27624244310"
@@ -82,48 +83,48 @@
                     style="color: #fff; text-decoration: none;" target="_blank" rel="noopener noreferrer">View Certificate</a></li>
               </ul>
             </div>
-        </div>
-</div>
+            </div>
+        </div>-->
       </div>
     </div>
-    <Values />
+    
 
   </div>
 
+    </div>
 </template>
 
-<script>
-import Nav from "@/components/Nav.vue";
-import Values from '@/components/Values.vue'
-export default {
-  components: { Nav, Values }
-}
+<script setup>
+
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 .about {
-  padding: 0rem 1rem;
+  padding: 2rem 15rem;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 3rem;
   overflow: hidden;
 }
 
 .about img {
-  width: 30%;
+  /*width: 25%;*/
   animation: image 2s ease-in;
+  align-items: start;
 }
 
 .details {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  /*width: 50%;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: white;
   font-family: 'Playfair Display', serif;
+
 }
 
 .two {
@@ -156,8 +157,8 @@ export default {
 }
 
 .abt {
-  padding: 2rem 11.1rem;
-  margin-bottomm: 5rem;
+  /*padding: 2rem 11.1rem;
+  margin-bottomm: 6rem;*/
 
 }
 
@@ -169,7 +170,7 @@ export default {
 
 .list-group li,
 l {
-  background-color: #171717;
+  background-color: #0A1128;
   border: none;
   color: white;
   padding: 0;
@@ -179,6 +180,21 @@ l {
 
 .L{
       color: aqua !important;
+}
+
+.aboutButton{
+    color: #00A1E0;
+      background-color: #0A1128;
+    border: 0;
+    font-size: 1.3rem;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 600;
+      padding: 0;
+}
+
+.aboutButton:hover{
+    color: white;
+
 }
 
 /**  --- animation --- */
@@ -193,10 +209,14 @@ l {
 
 @media (width > 900px) {
   .details h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     border-bottom: none;
     margin-left: 0;
     margin-right: auto;
+  }
+  
+  .details p {
+    font-size: 1.3rem;
   }
 
 
@@ -207,8 +227,8 @@ l {
   }
 
   .about img {
-    text-align: end;
-    margin-left: auto;
+    /*text-align: end;
+    margin-left: auto;*/
   }
 
 }
