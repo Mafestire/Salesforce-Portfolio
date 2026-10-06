@@ -23,23 +23,33 @@
 
         <!--ABOUT SECTION-->>
     <div class="about">
-        <AboutMe />
+        <AboutMe />    
+    </div>
 
-        <!--ABOUT Trailhead-->>
+    <!--ABOUT Trailhead-->>
         <div>
             <TrailHead />
         </div>
-        
 
-    </div>
+    <!--ABOUT Certifications-->>
+        <div>
+            <Certifications />
+        </div>
+
+        <!--ABOUT WORK EXPERIENCE-->>
+        <div>
+            <WorkExperience />
+        </div>
 </template>
 
 <script>
 import Nav from "@/components/Nav.vue";
 import AboutMe from "@/components/AboutMe";
 import TrailHead from "@/components/TrailHead.vue";
+import Certifications from "@/components/Certifications.vue";
+import WorkExperience from "@/components/WorkExperience.vue";
 export default {
-  components: { Nav, AboutMe, TrailHead}
+  components: { Nav, AboutMe, TrailHead, Certifications, WorkExperience}
 }
 </script>
 

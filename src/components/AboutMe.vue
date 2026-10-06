@@ -216,7 +216,7 @@ l {
   }
   
   .details p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
 
