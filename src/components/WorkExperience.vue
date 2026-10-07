@@ -63,7 +63,7 @@
 }
 
 .work{
-    padding-left: 11rem;
+    padding-left: 14rem;
   padding-right: 11rem;
   padding-bottom: 2rem;
   /*display: grid;
@@ -84,6 +84,7 @@
 
 .company {
     flex: 1;
+    border-right: 3px solid #00A1E0;
 }
 
 .company p{
@@ -99,7 +100,17 @@
 }
 
 .roleDescription{
-    border-left: 3px solid #00A1E0;
+    /*border-left: 3px solid #00A1E0;*/
     padding-left: 20px;
+}
+
+.roleDetails{
+    color: #00A1E0;
+      background-color: #0A1128;
+    border: 0;
+   /* font-size: 1.3rem;*/
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 600;
+      padding: 0;
 }
 </style>

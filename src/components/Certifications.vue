@@ -35,7 +35,7 @@
 }
 
 .Certification{
-    padding-left: 11rem;
+    padding-left: 14rem;
   padding-right: 11rem;
   padding-bottom: 2rem;
   display: grid;

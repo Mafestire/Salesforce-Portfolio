@@ -40,6 +40,11 @@
         <div>
             <WorkExperience />
         </div>
+
+        <!--ABOUT Contacts-->>
+        <div>
+            <ContactMe />
+        </div>
 </template>
 
 <script>
@@ -48,8 +53,9 @@ import AboutMe from "@/components/AboutMe";
 import TrailHead from "@/components/TrailHead.vue";
 import Certifications from "@/components/Certifications.vue";
 import WorkExperience from "@/components/WorkExperience.vue";
+import ContactMe from "@/components/ContactMe.vue";
 export default {
-  components: { Nav, AboutMe, TrailHead, Certifications, WorkExperience}
+  components: { Nav, AboutMe, TrailHead, Certifications, WorkExperience, ContactMe}
 }
 </script>
 
