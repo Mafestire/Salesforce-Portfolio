@@ -17,7 +17,7 @@
         </div>
         <div class="cirrico">
             <div class="company">
-                <img src="https://i.postimg.cc/MTzzMN14/Cirico-logo-removebg-preview-(1)-1.png" alt="">
+                <img src="https://i.postimg.cc/sDL6JpWX/Cirico-logo-removebg-preview-(1)-2.png" alt="">
                 <div class="date">
                                         <p style="color: #00A1E0;">Cirrico</p>
                     <p>Nov. 2024 - Jan. 2025</p>
@@ -31,7 +31,7 @@
         </div>
         <div class="lcStudio">
             <div class="company">
-                <img src="https://i.postimg.cc/8CmSS4xj/lc-studioza-logo-removebg-preview.png" alt="" class="studioLogo">
+                <img src="https://i.postimg.cc/L5wtj3Wf/lc-studioza-logo-removebg-preview1.png" alt="" class="studioLogo">
                 <div class="date">
                                         <p style="color: #00A1E0;">LC Studio</p>
 
@@ -96,7 +96,7 @@
 }
 
 .studioLogo{
-    width: 30%;
+    width: 10%;
 }
 
 .roleDescription{
@@ -106,11 +106,15 @@
 
 .roleDetails{
     color: #00A1E0;
-      background-color: #0A1128;
+      background-color: transparent;
     border: 0;
    /* font-size: 1.3rem;*/
       font-family: 'Nunito Sans', sans-serif;
       font-weight: 600;
       padding: 0;
+}
+
+.roleDetails:hover{
+    color: white;
 }
 </style>

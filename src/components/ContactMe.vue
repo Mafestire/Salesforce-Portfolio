@@ -119,8 +119,8 @@
 .form{
     display: flex;
     flex-direction: column;
-        border: none;
-
+        border: none;align-items: start;
+    width: 100%;
 }
 
 input,
@@ -128,8 +128,8 @@ textarea {
     font-size: 18px;
     padding-top: 1rem;
     margin-bottom: 1rem;
-    /*width: 100%;*/
-    background-color: #0A1128;
+    width: 100%;
+      background-color: transparent;
     color: #fff;
     border: none;
     border-bottom: 2px solid #00A1E0;
@@ -137,14 +137,18 @@ textarea {
 }
 
 button {
-    width: 5rem;
+    /*width: 5rem;*/
     font-size: 18px;
-    padding: 5px 3px;
+    padding: 0;
     margin-top: 1rem;
     border: none;
     color: #00A1E0;
     font-weight: 600;
-    border: 2px solid #00A1E0;
-    background-color: #0A1128;
+    border: 0px solid #00A1E0;
+      background-color: transparent;
+}
+
+button:hover{
+    color: white;
 }
 </style>

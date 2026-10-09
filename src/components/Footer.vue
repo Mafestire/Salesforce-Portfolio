@@ -49,7 +49,7 @@ export default {
 
 .footer p {
     font-size: 1rem;
-    color: aqua;
+    color: #00A1E0;
     width: 100%;
     text-align: center;
     /* padding-top: 1rem; */
@@ -86,7 +86,7 @@ li a {
 }
 
 li a:hover {
-    color: aqua;
+    color: #00A1E0;
 }
 
 .socials {
@@ -97,7 +97,7 @@ li a:hover {
 }
 
 h5{
-    color: aqua;
+    color: #00A1E0;
     padding-left: 2rem;
     font-size: 1.5rem;
 }

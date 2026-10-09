@@ -45,7 +45,7 @@
                 />
             </div>
             <div class="trailblazer">
-                <p>Trailblazer Profile Link</p>
+                <p>Trailblazer  Profile Link</p>
             </div>
         </div>
 
@@ -66,8 +66,7 @@
 }
 
 .trailhead {
-  padding-left: 11rem;
-  padding-right: 11rem;
+  padding: 0rem 13rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
@@ -104,24 +103,34 @@
 
 .trailheadLink {
   display: flex;
-  align-items: baseline !important;
+  align-items: baseline;
 }
 
 .trailblazerLink img {
-  width: 60%;
-    align-items: baseline !important;
+  width: 40%;
 
 }
 
 .trailblazerLink {
-    width: 50%;
-      align-items: center;
-      justify-content: center;
+    flex: 1;
+     display: flex;
+    justify-content: flex-end;
+    /*align-self: center;
+    width: 40%;
+      align-items: start;*/
 
 }
 
 .trailheadLink {
-    width: 30%;
-  align-items: end;
+    align-self: center;
+   
+/*        align-items: end !important;
+
+width: 30%;
+  align-items: end;*/
+}
+
+.trailblazer{
+    flex: 2;
 }
 </style>

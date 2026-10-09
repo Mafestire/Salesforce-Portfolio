@@ -5,7 +5,7 @@
       <img src="https://i.postimg.cc/BQDYRcGf/C11-Sibabalwe-Mafestire-3-removebg-preview-1.png
         " alt="">
       <div class="details">
-        <h2>Hellozz, I am <span style="color: aqua;">Sibabalwe Mafestire</span></h2>
+        <h2>Hellozz, I am <span style="color: #00A1E0;">Sibabalwe Mafestire</span></h2>
         <h2 style="font-weight: 600;">Web Developer & Certified Salesforce Professional</h2>
         <p id="info">
           I’m a passionate and multi-skilled Full Stack Developer and Certified Salesforce Professional, driven by a
@@ -170,7 +170,7 @@
 
 .list-group li,
 l {
-  background-color: #0A1128;
+  /*background-color: #0A1128;*/
   border: none;
   color: white;
   padding: 0;
@@ -184,7 +184,7 @@ l {
 
 .aboutButton{
     color: #00A1E0;
-      background-color: #0A1128;
+      background-color: transparent;
     border: 0;
     font-size: 1.3rem;
       font-family: 'Nunito Sans', sans-serif;

@@ -86,10 +86,12 @@ export default {
   /*height: 5rem;*/
   /* top: 1rem; */
   z-index: 10;
-  padding: 1rem 3rem;
+  padding: 0rem 11rem;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #111827;
-  /* text-align: end; */
+          border-bottom: 1px solid #000;
+
+  /*background-color: #111827;
+  text-align: end; */
 }
 
 button{
@@ -119,7 +121,7 @@ i {
 .navbar h2 {
   /* margin-left: 15px; */
   margin-top: 2.5rem !important;
-  color: aqua;
+  color: #00A1E0;
   font-size: 3.5rem;
   text-decoration: none;
   /* margin-top: 0rem; */
@@ -152,7 +154,7 @@ i {
 }
 
 .navbar a:hover {
-  color: aqua;
+  color: #00A1E0;
 }
 
 @media (width < 992px) {
