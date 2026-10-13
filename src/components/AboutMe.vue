@@ -2,11 +2,13 @@
     <div>
 <div class="abt">
     <div class="about">
-      <img src="https://i.postimg.cc/BQDYRcGf/C11-Sibabalwe-Mafestire-3-removebg-preview-1.png
+      <div class="aboutIMG">
+        <img src="https://i.postimg.cc/BQDYRcGf/C11-Sibabalwe-Mafestire-3-removebg-preview-1.png
         " alt="">
+      </div>
       <div class="details">
-        <h2>Hellozz, I am <span style="color: #00A1E0;">Sibabalwe Mafestire</span></h2>
-        <h2 style="font-weight: 600;">Web Developer & Certified Salesforce Professional</h2>
+        <h2 class="h2Greating">Hellozz, I am <span style="color: #00A1E0;">Sibabalwe Mafestire</span></h2>
+        <h2 class="h2Title" style="font-weight: 600;">Web Developer & Certified Salesforce Professional</h2>
         <p id="info">
           I’m a passionate and multi-skilled Full Stack Developer and Certified Salesforce Professional, driven by a
           love for problem-solving and creating powerful digital solutions. My journey began at Life Choices, where I
@@ -101,7 +103,7 @@
 <style lang="scss" scoped>
 
 .about {
-  padding: 2rem 15rem;
+  padding: 8rem 15rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -110,8 +112,12 @@
   overflow: hidden;
 }
 
-.about img {
-  /*width: 25%;*/
+.aboutIMG{
+  flex: 1;
+}
+
+.aboutIMG img {
+  /*width: 100%;*/
   animation: image 2s ease-in;
   align-items: start;
 }
@@ -124,6 +130,7 @@
   margin-bottom: 1rem;
   color: white;
   font-family: 'Playfair Display', serif;
+    flex: 2;
 
 }
 
@@ -207,7 +214,20 @@ l {
 
 /** --- responsiveness --- */
 
-@media (width > 900px) {
+@media (width > 1340px) {
+
+  .details{
+ /*padding: 2rem 15rem;
+  /*display: flex;
+  flex-direction: column;
+  flex-direction: row-reverse;*/
+  justify-content: space-between;
+  /*align-items: center;
+  margin-bottom: 3rem;*/
+  overflow: hidden;  }
+
+  
+
   .details h2 {
     font-size: 1.6rem;
     border-bottom: none;
@@ -223,17 +243,50 @@ l {
   .abt {
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem 0rem;
+    padding: 1rem 10rem;
   }
 
-  .about img {
+  .aboutIMG{
+    display: flex;
+      align-items: flex-start;
+
+  }
+
+  .aboutIMG img {
+    width: 90%;
     /*text-align: end;
     margin-left: auto;*/
   }
 
 }
 
-@media (width < 900px) {
+@media (width < 1340px) {
+  .aboutIMG{
+    display: none;
+  }
+
+  .abt{
+ padding: 2rem 8rem ;
+  /*display: flex;
+  flex-direction: column;
+  flex-direction: row-reverse;*/
+  justify-content: space-between;
+  /*align-items: center;
+  margin-bottom: 3rem;*/
+  overflow: hidden;  }
+}
+
+.about{
+ padding: 2rem 2rem;
+ /* display: flex;
+  flex-direction: column;
+  flex-direction: row-reverse;*/
+  justify-content: space-between;
+  /*align-items: center;
+  margin-bottom: 3rem;*/
+  overflow: hidden;  }
+
+@media (width < 1000px) {
 
   .num {
     margin-top: 0;
@@ -282,6 +335,18 @@ l {
     padding-left: 3%;
   }
 
+  .aboutButton{
+    font-size: 1rem;
+  }
+
+  .h2Title{
+    font-weight: 300;
+    font-size: 1.4rem !important;
+  }
+
+  .h2Greating{
+    font-size: 1.5rem !important;
+  }
 
 }
 </style>

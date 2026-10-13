@@ -37,7 +37,7 @@
 .Certification{
     padding-left: 14rem;
   padding-right: 11rem;
-  padding-bottom: 2rem;
+    padding-bottom: 8rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;

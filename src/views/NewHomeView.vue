@@ -120,12 +120,14 @@ span { font-size: 3.5rem; }
   animation: come 2s ease-in;
   display: flex;
   flex: 2;
-  align-items: center;
+  align-items: start;
+  /*align-items: top;*/
   position: relative; /* 👈 lift above bg */
   z-index: 1;         /* 👈 */
   align-items: center;
   justify-content: center;
   margin-top: 0;
+  padding-top: 0;
 }
 
 img { width: 22rem; }
@@ -172,7 +174,7 @@ img { width: 22rem; }
     display: flex;
     flex: 2;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 0;
     justify-content: center;
   }
   .wel { display: flex; flex: 3; }
@@ -182,7 +184,7 @@ img { width: 22rem; }
 @media (width > 1010px) {
   .greet { font-size: 1.7rem; padding: 1rem 0rem; flex: 3; }
   .who { font-size: 4rem; }
-  .image { display: flex; flex: 2; align-items: center; margin-top: 1rem; flex: 1; }
+  .image { display: flex; flex: 2; align-items: center; margin-top: 0; flex: 1; }
   span { font-size: 3rem; }
   .wel {
     display: flex;

@@ -56,6 +56,7 @@
 
 .title{
     padding: 2rem 11rem;
+     padding-top: 8rem;
     font-size: 40px;
     font-weight: 900;
     color: #00A1E0;
@@ -65,7 +66,7 @@
 .work{
     padding-left: 14rem;
   padding-right: 11rem;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
   /*display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;*/

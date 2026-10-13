@@ -1,5 +1,5 @@
 <template>
-    <div class="title">Work Experience</div>
+    <div class="title">Contacts</div>
     <div class="contacts">
         <div class="socials">
             <div class="trailblazer">
@@ -60,6 +60,7 @@
 <style lang="scss" scoped>
 .title{
     padding: 2rem 11rem;
+    padding-top: 5rem;
     font-size: 40px;
     font-weight: 900;
     color: #00A1E0;

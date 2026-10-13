@@ -67,20 +67,16 @@
 
 .trailhead {
   padding: 0rem 13rem;
-  padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  color: white;
+justify-content: flex-start;
+        align-items: flex-start;  color: white;
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.logo {
-  width: 20%;
-}
 
 .logo img {
-  width: 100%;
+  width: 50%;
 }
 
 .trailheadPoints {
@@ -133,4 +129,6 @@ width: 30%;
 .trailblazer{
     flex: 2;
 }
+
+
 </style>
